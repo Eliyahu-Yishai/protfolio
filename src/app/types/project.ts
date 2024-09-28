@@ -11,7 +11,6 @@ export interface Project {
   
   export type ProjectList = Project[];
   
-  // ניתן להוסיף טיפוסים נוספים כאן
   export interface Skill {
     name: string;
     level: 'Beginner' | 'Intermediate' | 'Advanced' | 'Expert';

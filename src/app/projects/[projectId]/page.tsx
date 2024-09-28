@@ -1,18 +1,13 @@
 import React from 'react';
-import styles from '../../styles/ProjectPage.module.css';
-import { useRouter } from 'next/router'
 
-
-const Page = () => {
-    const router = useRouter();
-    const projectId = router.query.id;
-    if (!projectId) return <div>Project not found</div>;
-    
+type Params = {
+    projectId: string;
+  };
   
-    return (
-      <div className={styles.container}>
-        <div className={styles.content}>
-            <p>{projectId}</p>
+const Page = ({ params }: { params: Params }) => {
+  return (
+      <div>
+            <p>{params.projectId}</p>
           {/*<h1>{project.title}</h1>
           <p>{project.description}</p>
           <div className={styles.technologies}>
@@ -37,7 +32,6 @@ const Page = () => {
             objectFit="cover"
           />
           */}
-        </div>
       </div>
     );
   };
