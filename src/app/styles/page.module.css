@@ -1,0 +1,97 @@
+/* styles/Home.module.css */
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: #4e99e4;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  margin-top: 2rem;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileImage {
+  flex: 1;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mainName {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.contentMain {
+  margin-top: 1rem;
+}
+
+.aboutContent {
+  flex: 2;
+  padding-left: 2rem;
+}
+
+.projects, .skills, .cv, .contact {
+  margin-top: 2rem;
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .aboutContent {
+    padding-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .profileImage {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .profileImage img {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .mainName {
+    font-size: 3rem;
+  }
+}
