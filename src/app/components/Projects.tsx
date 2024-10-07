@@ -10,7 +10,9 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projects" className={styles.projectsSection}>
-      <h2>My Projects</h2>
+      <div className={styles.title}>
+        <h2>My Projects</h2>
+      </div>
       <div className={styles.projectGrid}>
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />

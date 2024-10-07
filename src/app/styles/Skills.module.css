@@ -2,15 +2,19 @@
 .skillsContainer {
     margin-top: 2rem;
     padding: 1rem;
-    background: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .titleContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 21px;
+    color: #ffffff;
   }
   
   .skillsGrid {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
     justify-content: center;
   }
   
@@ -19,14 +23,16 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100px; /* קבע רוחב קבוע לכל פריט */
+    width: 100px; 
   }
   
   .skillLogo {
-    width: 64px;
-    height: 64px;
+    width: 68px;
+    height: 68px;
     object-fit: contain;
     transition: transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   
   .skillItem:hover .skillLogo {
@@ -35,22 +41,26 @@
   
   .skillName {
     margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
     font-size: 0.9rem;
-    color: #333;
+    color: #ffffff;
   }
   
   @media (max-width: 768px) {
     .skillsGrid {
-      justify-content: space-around;
+      justify-content:center;
     }
     
     .skillItem {
-      width: calc(33.333% - 1rem); /* 3 פריטים בשורה במסכים בינוניים */
-    }
+      width: calc(33.333% - 0.5rem); 
+  }
+  .skillName {
+    font-size: 1rem;
   }
   
   @media (max-width: 480px) {
     .skillItem {
-      width: calc(50% - 1rem); /* 2 פריטים בשורה במסכים קטנים */
+      width: calc(50% - 0.5rem);
     }
   }
+}

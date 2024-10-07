@@ -15,7 +15,9 @@ interface SkillsProps {
 const Skills: React.FC<SkillsProps> = ({ skills }) => {
   return (
     <div className={styles.skillsContainer}>
-      <h2>My Skills</h2>
+      <div className={styles.titleContainer}>
+         <h2>My Skills</h2>
+      </div>
       <div className={styles.skillsGrid}>
         {skills.map((skill, index) => (
           <div key={index} className={styles.skillItem}>

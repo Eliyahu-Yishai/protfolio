@@ -1,5 +1,14 @@
-.projectsSection {
+  .projectsSection {
+    color:#ffffff;
+    font-size: 21px;
     padding: 2rem 0;
+  }
+
+  .title {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
   }
 
   .projectGrid {
@@ -8,3 +17,5 @@
     gap: 2rem;
     padding: 1rem;
   }
+
+
