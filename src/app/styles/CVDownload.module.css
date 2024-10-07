@@ -1,0 +1,55 @@
+/* CVDownload.module.css */
+.cvDownloadContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cvDownloadButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #2b579a; /* צבע של Microsoft Word */
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(43, 87, 154, 0.2);
+}
+
+.cvDownloadButton:hover {
+  background-color: #1e3f6f;
+  transform: translateY(-2px);
+  box-shadow: 0 7px 14px rgba(43, 87, 154, 0.25);
+}
+
+.buttonText {
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+.downloadIcon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.cvDownloadButton:hover .downloadIcon {
+  transform: translateY(2px);
+}
+
+@media (max-width: 768px) {
+  .cvDownloadButton {
+    padding: 10px 20px;
+  }
+
+  .buttonText {
+    font-size: 14px;
+  }
+
+  .downloadIcon {
+    width: 20px;
+    height: 20px;
+  }
+}

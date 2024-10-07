@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import profilePic from '../images/profile.png';
+import profilePic from '../public/images/profile.png';
 import styles from '../styles/page.module.css';
 
 const About:React.FC = () => {
