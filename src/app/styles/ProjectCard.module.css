@@ -8,13 +8,14 @@
   
   .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.7); 
+
   }
   
   .image {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit:contain;
   }
   
   .content {
@@ -51,14 +52,14 @@
     color: #333;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
-    font-size: 0.875rem;
+    font-size: 0.870rem;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
   }
   
   .button {
     display: inline-block;
-    background: #0066cc;
+    background: #0d3b6d;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 4px;

@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import About from './components/About'
 import SkillsContainer from './components/SkillsContainer'
 import Contact from './components/Contact'
-// import CVDownload from './components/CVDownload'
+import CVDownload from './components/CVDownload'
 
 
 export default function Home() {
@@ -27,29 +27,24 @@ export default function Home() {
       </nav>
 
       <main className={styles.main}>
-        {/* -- About -- */}
         <section id="about" className={styles.about}>
          <About />
         </section>
 
-        {/* -- Projects -- */}
+        <div className={styles.dividerContainer}>
+          <div className={styles.divider}> </div>
+        </div>
         <section id="projects" className={styles.projects}>
           <Projects />
         </section>
 
-        {/* -- Skills -- */}
         <section id="skills" className={styles.skills}>
           <SkillsContainer/>
         </section>
 
-        {/* -- CV -- */}
-      {/* <section id="cv" className={styles.cv}>
-          <CVDownload />
-
+       <section id="cv" className={styles.cv}>
+          <CVDownload/>
         </section>
-      /*}
-
-        {/* -- Contact -- */}
       </main>
 
       <footer className={styles.footer}>
@@ -57,7 +52,6 @@ export default function Home() {
           <Contact/>
         </section>
 
-      {/* -- Footer -- */}
         <p>©{new Date().getFullYear()} Eliyahu Yishai</p>
       </footer>
     </div>

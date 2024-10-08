@@ -1,6 +1,4 @@
-/* CVDownload.module.css */
 .cvDownloadContainer {
-  margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -9,7 +7,7 @@
   display: inline-flex;
   align-items: center;
   padding: 12px 24px;
-  background-color: #2b579a; /* צבע של Microsoft Word */
+  background-color: #ffffff;
   color: white;
   border-radius: 50px;
   text-decoration: none;
@@ -19,24 +17,24 @@
 }
 
 .cvDownloadButton:hover {
-  background-color: #1e3f6f;
-  transform: translateY(-2px);
-  box-shadow: 0 7px 14px rgba(43, 87, 154, 0.25);
+  transform: translateY(2px);
+
+  /* background-color: #1e3f6f;
+  transform: translateY(-2px); */
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.7); 
 }
 
 .buttonText {
   margin-right: 12px;
   font-size: 16px;
+  color: #5c00c5
 }
 
 .downloadIcon {
   width: 24px;
   height: 24px;
+  color: #5c00c5;
   transition: transform 0.3s ease;
-}
-
-.cvDownloadButton:hover .downloadIcon {
-  transform: translateY(2px);
 }
 
 @media (max-width: 768px) {

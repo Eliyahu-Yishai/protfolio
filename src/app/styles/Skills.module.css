@@ -1,8 +1,4 @@
-/* Skills.module.css */
-.skillsContainer {
-    margin-top: 2rem;
-    padding: 1rem;
-  }
+
 
   .titleContainer{
     display: flex;
@@ -37,6 +33,8 @@
   
   .skillItem:hover .skillLogo {
     transform: scale(1.1);
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.7); 
+
   }
   
   .skillName {

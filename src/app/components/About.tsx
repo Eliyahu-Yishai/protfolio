@@ -5,7 +5,12 @@ const About:React.FC = () => {
     return (
         <div className={styles.about}>
         <div className={styles.profileImage}>
-            <Image src="/images/profile.png" alt="Eliyahu Yishai" width={380} height={550} />
+            <Image 
+               className={styles.image} 
+               src="/images/profile/profile.png" 
+               alt="Eliyahu Yishai" 
+               width={420} 
+               height={560} />
         </div>
     
         <div className={styles.aboutContent}>

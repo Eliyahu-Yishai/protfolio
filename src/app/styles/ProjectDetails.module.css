@@ -12,7 +12,8 @@
   display: flex;
   width: 80%;
   max-width: 1200px;
-  min-height: 80vh;
+  min-height: 75vh;
+  align-items: center;
   background: #f9f9f9;
   padding: 2rem;
   border-radius: 8px;
@@ -23,22 +24,56 @@
   flex: 1;
   overflow: hidden;
   border-radius: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .galleryInner {
   display: flex;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
+  width: 100%;
 }
 
 .galleryImage {
   min-width: 100%;
-  height: 400px;
-  object-fit: cover;
+  object-fit:contain}
+
+.galleryButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  z-index: 10;
+}
+
+.galleryButton:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.prevButton {
+  left: 10px;
+}
+
+.nextButton {
+  right: 10px;
 }
 
 .content {
   flex: 1;
   padding: 0 2rem;
+  min-height: 50vh;
+
 }
 
 .title {
@@ -82,8 +117,8 @@
 
 .githubLink {
   display: inline-block;
-  background: #0066cc;
-  color: white;
+  background: #0d3b6d;
+  color: rgb(255, 255, 255);
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
@@ -93,7 +128,7 @@
 }
 
 .githubLink:hover {
-  background: #0052a3;
+  background: #154c84;
 }
 
 @media (max-width: 1024px) {
@@ -105,7 +140,7 @@
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    width: 95%;
+    width: 100%;
     min-height: auto;
   }
 
