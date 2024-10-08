@@ -1,0 +1,53 @@
+.cvDownloadContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.cvDownloadButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(43, 87, 154, 0.2);
+}
+
+.cvDownloadButton:hover {
+  transform: translateY(2px);
+
+  /* background-color: #1e3f6f;
+  transform: translateY(-2px); */
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.7); 
+}
+
+.buttonText {
+  margin-right: 12px;
+  font-size: 16px;
+  color: #5c00c5
+}
+
+.downloadIcon {
+  width: 24px;
+  height: 24px;
+  color: #5c00c5;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .cvDownloadButton {
+    padding: 10px 20px;
+  }
+
+  .buttonText {
+    font-size: 14px;
+  }
+
+  .downloadIcon {
+    width: 20px;
+    height: 20px;
+  }
+}

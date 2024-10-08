@@ -1,4 +1,3 @@
-// components/ProjectCard.js
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -15,7 +14,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     return (
       <div className={styles.card}>
         <Image
-          src={project.image}
+          src={project.images[0]}
           alt={project.title}
           width={300}
           height={200}
@@ -23,7 +22,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         />
         <div className={styles.content}>
           <h3>{project.title}</h3>
-          <p>{project.description.substring(0, 100)}...</p>
+          <div className={styles.description}>
+             <p>{project.description.substring(0, 100)}...</p>
+          </div>
           <div className={styles.tags}>
             {project.technologies.slice(0, 3).map((tech, index) => (
               <span key={index} className={styles.tag}>{tech}</span>

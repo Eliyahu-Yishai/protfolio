@@ -4,6 +4,10 @@ import Link from 'next/link'
 import styles from './styles/page.module.css'
 import Projects from './components/Projects'
 import About from './components/About'
+import SkillsContainer from './components/SkillsContainer'
+import Contact from './components/Contact'
+import CVDownload from './components/CVDownload'
+
 
 export default function Home() {
   return (
@@ -23,37 +27,31 @@ export default function Home() {
       </nav>
 
       <main className={styles.main}>
-        {/* -- About -- */}
         <section id="about" className={styles.about}>
          <About />
         </section>
 
-        {/* -- Projects -- */}
+        <div className={styles.dividerContainer}>
+          <div className={styles.divider}> </div>
+        </div>
         <section id="projects" className={styles.projects}>
           <Projects />
         </section>
 
-        {/* -- Skills -- */}
         <section id="skills" className={styles.skills}>
-          <h2>Skills</h2>
-          {/* כאן יבוא קוד לרשימת הכישורים */}
+          <SkillsContainer/>
         </section>
 
-        {/* -- CV -- */}
-        <section id="cv" className={styles.cv}>
-          <h2>CV</h2>
-          <a href="/cv.pdf" download>Download cv</a>
-        </section>
-
-        {/* -- Contact -- */}
-        <section id="contact" className={styles.contact}>
-          <h2>Contact</h2>
-          {/* כאן יבואו קישורים לרשתות חברתיות */}
+       <section id="cv" className={styles.cv}>
+          <CVDownload/>
         </section>
       </main>
 
-      {/* -- Footer -- */}
       <footer className={styles.footer}>
+        <section id="contact" className={styles.contact}>
+          <Contact/>
+        </section>
+
         <p>©{new Date().getFullYear()} Eliyahu Yishai</p>
       </footer>
     </div>
