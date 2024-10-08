@@ -14,7 +14,7 @@
       "description": "Developed a TypeScript and React-powered website for the 'Gvanim' association, simplifying employee recruitment. With Firebase handling the backend, candidates can seamlessly submit resumes while recruiters efficiently manage job listings, interviews, and candidate status.",
       "images": ["/images/projects/project_1/image-1.png"],
       "technologies": ["React.js", "TypeScript", "Firebase", "CSS"],
-      "githubLink": "./"
+      "githubLink": "https://github.com/JCE-Gvanym-Project-Team"
     },
     {
       "id": "3",
