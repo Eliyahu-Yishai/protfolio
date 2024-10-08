@@ -51,6 +51,7 @@ export default function Home() {
 
         {/* -- Contact -- */}
       </main>
+
       <footer className={styles.footer}>
         <section id="contact" className={styles.contact}>
           <Contact/>

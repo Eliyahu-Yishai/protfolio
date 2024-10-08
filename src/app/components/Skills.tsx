@@ -22,7 +22,7 @@ const Skills: React.FC<SkillsProps> = ({ skills }) => {
         {skills.map((skill, index) => (
           <div key={index} className={styles.skillItem}>
             <Image
-              src={pic}
+              src="/images/Skills/react-logo.png"
               alt={skill.name}
               width={64}
               height={64}

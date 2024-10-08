@@ -48,43 +48,6 @@
   margin-top: 2rem;
 }
 
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.profileImage {
-  flex: 1;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profileImage img {
-  max-width: 100%;
-  height: auto;
-}
-
-.mainName {
-  color: #ffffff;
-  font-size: 4rem;
-  margin-bottom: 1rem;
-}
-
-.contentMain {
-  color: #ffffff;
-  font-size: 1.2rem;
-  margin-top: 1rem;
-}
-
-.aboutContent {
-  color: #ffffff;
-  flex: 2;
-  padding-left: 2rem;
-}
-
 .projects, .skills, .cv, .contact {
   margin-top: 2rem;
 }
@@ -93,31 +56,5 @@
   margin-top: 3rem;
   text-align: center;
   padding: 1rem 0;
-  background-color: #f0f0f0;
-}
-
-@media (max-width: 768px) {
-  .about {
-    flex-direction: column;
-  }
-  
-  .aboutContent {
-    padding-left: 0;
-    margin-top: 1rem;
-    text-align: center;
-  }
-  
-  .profileImage {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-  
-  .profileImage img {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-  
-  .mainName {
-    font-size: 3rem;
-  }
+  color: #ffffff;
 }

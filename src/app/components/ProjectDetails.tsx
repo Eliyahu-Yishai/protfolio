@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/ProjectDetails.module.css';
 import { Project } from '../types/project';
-import pic1 from "../public/images/projects/1/1.jpg";
 
 interface ProjectDetailsProps {
   project: Project;
@@ -30,24 +29,17 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project }) => {
     <div className={styles.pageWrapper}>
         <div className={styles.container}>
         <div className={styles.gallery}>
-            <div className={styles.galleryInner} style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}>
-            {/* {project.images.map((image, index) => (
+            <div className={styles.galleryInner} style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}> 
+             {project.images.map((image, index) => (
                 <Image
-                key={index}
-                src={image}
-                alt={`${project.title} - Image ${index + 1}`}
-                width={500}
-                height={400}
-                className={styles.galleryImage}
+                  key={index}
+                  src={image}
+                  alt={`${project.title} - Image ${index + 1}`}
+                  width={500}
+                  height={400}
+                  className={styles.galleryImage}
                 />
-            ))}*/}
-            <Image
-                src={pic1}
-                width={500}
-                height={400}
-                className={styles.galleryImage}
-                />
-
+            ))}
             </div>
             <button onClick={prevImage}>Previous</button>
             <button onClick={nextImage}>Next</button>

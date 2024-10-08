@@ -1,10 +1,8 @@
-// components/ProjectCard.js
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/ProjectCard.module.css';
 import { Project } from '../types/project';
-import pic1 from '../public/images/projects/1/1.jpg';
 
 
 interface ProjectCardProps {
@@ -16,7 +14,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     return (
       <div className={styles.card}>
         <Image
-          src={pic1}
+          src={project.images[0]}
           alt={project.title}
           width={300}
           height={200}
