@@ -18,15 +18,12 @@
 
 .cvDownloadButton:hover {
   transform: translateY(2px);
-
-  /* background-color: #1e3f6f;
-  transform: translateY(-2px); */
   box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.7); 
 }
 
 .buttonText {
   margin-right: 12px;
-  font-size: 16px;
+  font-size: 1.5rem;
   color: #5c00c5
 }
 
@@ -43,7 +40,7 @@
   }
 
   .buttonText {
-    font-size: 14px;
+    font-size: 1.3rem;
   }
 
   .downloadIcon {

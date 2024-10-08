@@ -12,7 +12,7 @@
       "id": "2",
       "title": "Recruitment Management Website",
       "description": "Developed a TypeScript and React-powered website for the 'Gvanim' association, simplifying employee recruitment. With Firebase handling the backend, candidates can seamlessly submit resumes while recruiters efficiently manage job listings, interviews, and candidate status.",
-      "images": ["/images/projects/project_1/image-1.png"],
+      "images": ["/images/projects/project_2/preview.png"],
       "technologies": ["React.js", "TypeScript", "Firebase", "CSS"],
       "githubLink": "https://github.com/JCE-Gvanym-Project-Team"
     },
@@ -20,17 +20,9 @@
       "id": "3",
       "title": "Personal portfolio",
       "description": "This personal portfolio showcases my skills and projects as a software developer. Built with Next.js and React, it emphasizes responsive design and modern aesthetics using CSS Modules. The site features project displays, a skills list, and a CV download option, leveraging Full Stack development for a seamless and fast user experience.",
-      "images": ["/images/projects/project_1/image-1.png"],
+      "images": ["/images/projects/project_3/preview.png"],
       "technologies": ["Next.js", "TypeScript", "CSS"],
-      "githubLink": "./"
-    },
-    {
-      "id": "4",
-      "title": "Project 4",
-      "description": "This is a description of project 4",
-      "images": ["/images/projects/project_1/image-1.png"],
-      "technologies": ["Vue", "Nest.js", "PostgreSQL"],
-      "githubLink": "./"
+      "githubLink": "https://github.com/Eliyahu-Yishai/portfolio"
     }
   ]
 }

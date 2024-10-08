@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-         <h1>Contact me</h1>
+         <h1>Let's Connect</h1>
       </div>
       <div className={styles.linksContainer}>
         <a 

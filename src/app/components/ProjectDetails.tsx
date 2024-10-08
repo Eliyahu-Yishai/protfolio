@@ -41,12 +41,16 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project }) => {
               />
             ))}
           </div>
-          <button className={`${styles.galleryButton} ${styles.prevButton}`} onClick={prevImage}>
-            <ChevronLeft size={24} />
-          </button>
-          <button className={`${styles.galleryButton} ${styles.nextButton}`} onClick={nextImage}>
-            <ChevronRight size={24} />
-          </button>
+          {project.images.length > 1 && (
+            <>
+              <button className={`${styles.galleryButton} ${styles.prevButton}`} onClick={prevImage}>
+                <ChevronLeft size={24} />
+              </button>
+              <button className={`${styles.galleryButton} ${styles.nextButton}`} onClick={nextImage}>
+                <ChevronRight size={24} />
+              </button>
+            </>
+          )}
         </div>
         <div className={styles.content}>
           <h1 className={styles.title}>{project.title}</h1>

@@ -16,8 +16,6 @@
   .profileImage img {
     max-width: 100%;
     height: auto;
-    border-radius: 40% / 60%;
-    object-fit: cover;
   }
   
   .mainName {
