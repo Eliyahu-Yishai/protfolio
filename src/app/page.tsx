@@ -34,6 +34,7 @@ export default function Home() {
         <div className={styles.dividerContainer}>
           <div className={styles.divider}> </div>
         </div>
+
         <section id="projects" className={styles.projects}>
           <Projects />
         </section>
@@ -42,12 +43,16 @@ export default function Home() {
           <SkillsContainer/>
         </section>
 
+
        <section id="cv" className={styles.cv}>
           <CVDownload/>
         </section>
       </main>
 
       <footer className={styles.footer}>
+        <div className={styles.dividerContainer}>
+          <div className={styles.divider}> </div>
+        </div>
         <section id="contact" className={styles.contact}>
           <Contact/>
         </section>

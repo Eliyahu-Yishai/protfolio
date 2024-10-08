@@ -17,9 +17,9 @@ const About:React.FC = () => {
             <h1 className={styles.mainName}>Eliyahu yishai</h1>
             <h1 className={styles.secondTitle}>Software engineering</h1>
             <p className={styles.contentMain}>
-                Hi, I'm Eliyahu Yishai, a software engineering student at the Academic
-                College of Tel Aviv-Yafo. I have experience in web development, and I
-                am looking for a job as a full-stack developer.
+                Hi, I'm Eliyahu Yishai, a software engineering 
+                 i have a passion for creating and developing software applications.
+                 Specializing in web development, mobile apps. 
             </p>
         </div>
       </div>
