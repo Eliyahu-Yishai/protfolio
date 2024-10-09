@@ -11,7 +11,7 @@ const SkillsContainer = () => {
     { name: 'JavaScript', logo: '/images/skills/javascript-logo.png' },
     { name: 'FireBase', logo: '/images/skills/firebase-logo.png' },
     { name: 'SQL', logo: '/images/skills/sql-logo.png' },
-    { name: 'ReactNative', logo: '/images/skills/reactnative-logo.png' },
+    { name: 'ReactNative', logo: '/images/skills/react-logo.png' },
   ];
 
   return (
