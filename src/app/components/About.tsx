@@ -14,7 +14,7 @@ const About:React.FC = () => {
         </div>
     
         <div className={styles.aboutContent}>
-            <h1 className={styles.mainName}>Eliyahu yishai</h1>
+            <h1 className={styles.mainName}>Eliyahu | yishai</h1>
             <h1 className={styles.secondTitle}>Software engineering</h1>
             <p className={styles.contentMain}>
                 Hi, I&apos;m Eliyahu | Yishai, a software engineering 
