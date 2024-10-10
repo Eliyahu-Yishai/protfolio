@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Social Network for Food Rescue",
-      "description": "We've developed a React Native application tailored for food rescue, seamlessly integrated with Firebase for backend support. Our platform empowers users to share surplus food donations conveniently displayed on a map for easy access, by prioritizing user-friendliness and efficienc",
+      "description": "In my final project for my B.c, me and my partner developed a React Native application tailored for food rescue, seamlessly integrated with Firebase for backend support. Our platform empowers users to share surplus food donations conveniently displayed on a map for easy access, by prioritizing user-friendliness and efficiency",
       "images": ["/images/projects/project_1/feed.png", "/images/projects/project_1/map.png", "/images/projects/project_1/chat.png","/images/projects/project_1/web-version.png"],
       "technologies": ["ReactNative", "Firebase", "Expo", "CSS"],
       "githubLink": "https://github.com/Food-Rescue-Social-Media-Platform/Food-Rescue-social-media-application"
@@ -19,7 +19,7 @@
     {
       "id": "3",
       "title": "Personal portfolio",
-      "description": "This personal portfolio showcases my skills and projects as a software developer. Built with Next.js and React, it emphasizes responsive design and modern aesthetics using CSS Modules. The site features project displays, a skills list, and a CV download option, leveraging Full Stack development for a seamless and fast user experience.",
+      "description": "This personal portfolio showcases my skills and projects as a software developer. Built with Next.js and React, it emphasizes responsive design and modern aesthetics using CSS Modules. The site features project displays, a skills list, and a CV downloading option, leveraging Full Stack development for a seamless and fast user experience.",
       "images": ["/images/projects/project_3/preview.png"],
       "technologies": ["Next.js", "TypeScript", "CSS"],
       "githubLink": "https://github.com/Eliyahu-Yishai/portfolio"

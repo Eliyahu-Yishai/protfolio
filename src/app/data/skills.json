@@ -2,39 +2,39 @@
     "skills" : [ {
         "id" : "1",
         "name" : "ReactJs",
-        "logo" : "/images/skills/react-logo.png"
+        "logo" : "/images/skills/react_logo.png"
     }, {
         "id" : "2",
         "name" : "NextJs",
-        "logo" : "/images/skills/nextjs-logo.png"
+        "logo" : "/images/skills/nextjs_logo.png"
     }, {
         "id" : "3",
         "name" : "TypeScript",
-        "logo" : "/images/skills/typescript-logo.png"
+        "logo" : "/images/skills/css_logo.png"
     }, {
         "id" : "4",
         "name" : "CSS",
-        "logo" : "/images/skills/css-logo.png"
+        "logo" : "/images/skills/css_logo.png"
     }, {
         "id" : "5",
         "name" : "HTML",
-        "logo" : "/images/projects/project_2/preview.png"
+        "logo" : "/images/skills/html_logo.png"
     }, {
         "id" : "6",
         "name" : "JavaScript",
-        "logo" : "/images/skills/javascript-logo.png"
+        "logo" : "/images/skills/javascript_logo.png"
     }, {
         "id" : "7",    
         "name" : "FireBase",
-        "logo" : "/images/skills/firebase-logo.png"
+        "logo" : "/images/skills/firebase_logo.png"
     }, {
         "id" : "8",
         "name" : "SQL",
-        "logo" : "/images/skills/sql-logo.png"
+        "logo" : "/images/skills/sql_logo.png"
     }, {
         "id" : "9",
         "name" : "ReactNative",
-        "logo" : "/images/skills/react-logo.png"        
+        "logo" : "/images/skills/react_logo.png"        
     }
 ]
 }
