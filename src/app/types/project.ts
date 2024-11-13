@@ -4,8 +4,9 @@ export interface Project {
     description: string;
     images: string[];
     technologies: string[];
-    githubLink: string; // 
-    date?: Date; // 
+    githubLink: string; 
+    youtubeLink?: string;
+    date?: Date; 
   }
   
   export type ProjectList = Project[];

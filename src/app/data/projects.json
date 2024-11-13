@@ -6,7 +6,8 @@
       "description": "In my final project for my B.c, me and my partner developed a React Native application tailored for food rescue, seamlessly integrated with Firebase for backend support. Our platform empowers users to share surplus food donations conveniently displayed on a map for easy access, by prioritizing user-friendliness and efficiency",
       "images": [ "/images/projects/project_1/feed.png", "/images/projects/project_1/map.png", "/images/projects/project_1/chat.png","/images/projects/project_1/web-version.png", "/images/projects/project_1/team.png"],
       "technologies": ["ReactNative", "Firebase", "Expo", "CSS"],
-      "githubLink": "https://github.com/Food-Rescue-Social-Media-Platform/Food-Rescue-social-media-application"
+      "githubLink": "https://github.com/Food-Rescue-Social-Media-Platform/Food-Rescue-social-media-application",
+      "youtubeLink": "https://youtu.be/5BYcz_vx2UM"
     },
     {
       "id": "2",
@@ -14,7 +15,8 @@
       "description": "Developed a TypeScript and React-powered website for the 'Gvanim' association, simplifying employee recruitment. With Firebase handling the backend, candidates can seamlessly submit resumes while recruiters efficiently manage job listings, interviews, and candidate status. live demo: https://gvanim-demo.web.app/management,  ( mail: admin@gmail.com, password: admin12 )",
       "images": ["/images/projects/project_2/1.png", "/images/projects/project_2/2.png", "/images/projects/project_2/3.png", "/images/projects/project_2/4.png"],
       "technologies": ["React.js", "TypeScript", "Firebase", "CSS"],
-      "githubLink": "https://github.com/JCE-Gvanym-Project-Team"
+      "githubLink": "https://github.com/JCE-Gvanym-Project-Team",
+      "youtubeLink": "https://youtu.be/fxzeKzhE_io"
     },
     {
       "id": "3",

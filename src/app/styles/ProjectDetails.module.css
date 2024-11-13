@@ -73,7 +73,6 @@
   flex: 1;
   padding: 0 2rem;
   min-height: 50vh;
-
 }
 
 .title {
@@ -115,9 +114,15 @@
   font-size: 0.9rem;
 }
 
+.links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
 .githubLink {
-  display: inline-block;
-  background: #0d3b6d;
+  display: flex;
+  background-color: #333;
   color: rgb(255, 255, 255);
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
@@ -125,10 +130,30 @@
   transition: background 0.3s ease;
   font-size: 1rem;
   margin-top: 1rem;
+  gap: 0.5rem;
+  align-items: center;
 }
 
 .githubLink:hover {
   background: #154c84;
+}
+
+.youtubeLink {
+  display:flex;
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  font-size: 1rem;
+  margin-top: 1rem;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.youtubeLink:hover {
+  background: #ff6a6a;
 }
 
 @media (max-width: 1024px) {

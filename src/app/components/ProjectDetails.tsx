@@ -2,9 +2,10 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Youtube } from 'lucide-react';
 import styles from '../styles/ProjectDetails.module.css';
 import { Project } from '../types/project';
+import { Github } from 'lucide-react'
 
 interface ProjectDetailsProps {
   project: Project;
@@ -63,13 +64,24 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project }) => {
               ))}
             </ul>
           </div>
-          {project.githubLink && (
-            <Link href={project.githubLink} className={styles.githubLink}>
-              View on GitHub
-            </Link>
-          )}
+          <div className={styles.links}> 
+                {project.githubLink && (
+                  <Link 
+                      href={project.githubLink} className={styles.githubLink}>
+                          <p>View on Github</p> 
+                          <Github size={24} />
+                  </Link>
+                )}
+
+                {project.youtubeLink && (
+                <Link href={project.youtubeLink} className={styles.youtubeLink}>
+                       <p>View Demo</p>
+                        <Youtube size={24} />
+                </Link>
+                )}           
+            </div>
+          </div>
         </div>
-      </div>
     </div>
   );
 };
