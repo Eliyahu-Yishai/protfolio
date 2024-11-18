@@ -14,7 +14,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Eliyahu Yishai - portfolio</title>
-        <meta name="description" content="The portfolio's eliyahu yishai - software engineering " />
+        <meta name="description" content="The portfolio's eliyahu yishai - software engineering" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
