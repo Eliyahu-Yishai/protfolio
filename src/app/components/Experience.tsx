@@ -3,6 +3,7 @@ import styles from '../styles/Experience.module.css';
 const Experience: React.FC = () => {
     return (
         <div className={styles.experience}>
+            <h1 className={styles.sectionTitle}>Experience</h1>
             <div className={styles.header}>
                 <h2 className={styles.title}>Software Engineer <span className={styles.separator}>|</span> Bresleveloper Digital</h2>
                 <div className={styles.dates}>Dec. 2024 – Present</div>

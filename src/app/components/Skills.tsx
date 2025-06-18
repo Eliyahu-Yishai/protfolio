@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '../styles/Skills.module.css';
+import sectionStyles from '../styles/Experience.module.css';
 import { SkillList } from '../types/skills';
 
 interface SkillsProps {
@@ -10,9 +11,7 @@ interface SkillsProps {
 const Skills: React.FC<SkillsProps> = ({ skills }) => {
   return (
     <>
-      <div className={styles.titleContainer}>
-         <h2>My Skills</h2>
-      </div>
+      <h1 className={sectionStyles.sectionTitle}>My Skills</h1>
       <div className={styles.skillsGrid}>
         {skills.map((skill) => (
           <div key={skill.id} className={styles.skillItem}>

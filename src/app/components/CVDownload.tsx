@@ -3,7 +3,7 @@ import styles from '../styles/CVDownload.module.css';
 
 
 const CVDownload: React.FC = () => {
-  const wordUrl = '/cv/Eliyahu_CV.docx';
+  const wordUrl = '/cv/CV Eliyahu.pdf';
    return (
     <div className={styles.cvDownloadContainer}>
         <a href={wordUrl} download className={styles.cvDownloadButton}>
