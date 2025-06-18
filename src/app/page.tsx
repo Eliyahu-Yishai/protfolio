@@ -4,6 +4,7 @@ import Link from 'next/link'
 import styles from './styles/page.module.css'
 import Projects from './components/Projects'
 import About from './components/About'
+import Experience from './components/Experience'
 import SkillsContainer from './components/SkillsContainer'
 import Contact from './components/Contact'
 import CVDownload from './components/CVDownload'
@@ -20,6 +21,7 @@ export default function Home() {
 
       <nav className={styles.nav}>
         <Link href="#about">About</Link>
+        <Link href="#experience">Experience</Link>
         <Link href="#projects">Projects</Link>
         <Link href="#skills">Skills</Link>
         <Link href="#cv">Cv</Link>
@@ -29,6 +31,14 @@ export default function Home() {
       <main className={styles.main}>
         <section id="about" className={styles.about}>
          <About />
+        </section>
+
+        <div className={styles.dividerContainer}>
+          <div className={styles.divider}> </div>
+        </div>
+
+        <section id="experience" className={styles.experience}>
+          <Experience />
         </section>
 
         <div className={styles.dividerContainer}>
