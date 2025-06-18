@@ -27,7 +27,7 @@ const About:React.FC = () => {
                 of what I do appear.
                 <br/>
                 <br/>
-                My expertise now spans main languages such as <strong><em>JavaScript</em></strong>, <strong><em>TypeScript</em></strong>
+                My expertise now spans main languages such as <strong><em>JavaScript</em></strong>, <strong><em>TypeScript </em></strong>
                 and also frameworks: <strong><em>React</em></strong>, <strong><em>ReactNative</em></strong>, <strong><em>NextJs</em></strong>.
             </p>
         </div>
