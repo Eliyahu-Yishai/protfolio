@@ -25,6 +25,14 @@
       "images": ["/images/projects/project_3/preview.png"],
       "technologies": ["Next.js", "TypeScript", "CSS"],
       "githubLink": "https://github.com/Eliyahu-Yishai/portfolio"
+    },
+    {
+      "id": "4",
+      "title": "YouTube AI Chat – Multi-Video Q&A App",
+      "description": "web app that loads YouTube videos, extracts transcripts, and answers questions using RAG. Includes multi-video management and a simple web UI",
+      "technologies": ["FastAPI", "LangChain"],
+      "images": ["/images/projects/project_4/1.png"],
+      "githubLink": "https://github.com/Eliyahu-Yishai/langChainChatVideoYoutube"
     }
   ]
 }

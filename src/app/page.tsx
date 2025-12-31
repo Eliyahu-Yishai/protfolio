@@ -21,10 +21,10 @@ export default function Home() {
 
       <nav className={styles.nav}>
         <Link href="#about">About</Link>
-        <Link href="#experience">Experience</Link>
+        {/* <Link href="#experience">Experience</Link> */}
         <Link href="#projects">Projects</Link>
         <Link href="#skills">Skills</Link>
-        <Link href="#cv">Cv</Link>
+        {/* <-Link href="#cv">Cv</-Link> */}
         <Link href="#contact">Contact</Link>
       </nav>
 
@@ -37,26 +37,26 @@ export default function Home() {
           <div className={styles.divider}> </div>
         </div>
 
-        <section id="experience" className={styles.experience}>
+        {/* <section id="experience" className={styles.experience}>
           <Experience />
-        </section>
+        </section> */}
 
-        <div className={styles.dividerContainer}>
+        {/* <div className={styles.dividerContainer}>
           <div className={styles.divider}> </div>
-        </div>
+        </div> */}
 
         <section id="projects" className={styles.projects}>
           <Projects />
         </section>
 
-        <section id="skills" className={styles.skills}>
+        {/* <section id="skills" className={styles.skills}>
           <SkillsContainer/>
-        </section>
+        </section> */}
 
 
-       <section id="cv" className={styles.cv}>
+       {/* <section id="cv" className={styles.cv}>
           <CVDownload/>
-        </section>
+        </section> */}
       </main>
 
       <footer className={styles.footer}>

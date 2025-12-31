@@ -13,13 +13,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   
     return (
       <div className={styles.card}>
-        <Image
+        {project?.images && project?.images[0] && <Image
           src={project.images[0]}
           alt={project.title}
           width={300}
           height={200}
           className={styles.image}
-        />
+        />}
         <div className={styles.content}>
           <h3>{project.title}</h3>
           <div className={styles.description}>
