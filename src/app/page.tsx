@@ -4,10 +4,10 @@ import Link from 'next/link'
 import styles from './styles/page.module.css'
 import Projects from './components/Projects'
 import About from './components/About'
-import Experience from './components/Experience'
-import SkillsContainer from './components/SkillsContainer'
+// import Experience from './components/Experience'
+// import SkillsContainer from './components/SkillsContainer'
 import Contact from './components/Contact'
-import CVDownload from './components/CVDownload'
+// import CVDownload from './components/CVDownload'
 
 
 export default function Home() {
